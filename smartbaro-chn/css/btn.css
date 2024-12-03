@@ -1,0 +1,160 @@
+@charset "euc-kr";
+.btnNormal, .btnNormal span, .btnBBig, .btnBBig span, .btnTiny, .btnTiny span, .btnTinys, .btnTinys span,  .btnBig, .btnBig span, .btnCtrl, .btnCtrl span, .btnDate, .btnDate span, .btnGeneral, .btnGeneral span, .btnStrong, .btnStrong span, .btnNormalB, .btnNormalB span, .btnNormalS, .btnNormalS span, .btnSubmit, .btnSubmit span, .btnEm, .btnEm span, .btnSearch, .btnSearch span, .btnSmall, .btnSmall span {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+	
+	color:#fff;
+	zoom:1;
+	*display:inline;
+	cursor:pointer;
+}
+.btnNormal span, .btnCtrl span, .btnDate span, .btnGeneral span, .btnStrong span, .btnSubmit span, .btnEm span, .btnSearch span {
+    cursor:pointer;
+    vertical-align:top;
+}
+a.radius {border-radius:60px; }
+a em {display:inline-block; height:11px; vertical-align:middle; line-height:0; padding:0; zoom:1; *display:inline;}
+a.btnStrong, a.btnSubmit {color:#fff; font-size:17px; }
+button {padding: 0px; border: none; cursor: pointer;}
+button {background: none; font-family: Noto Sans;}
+.btn_zone {padding:38px;}
+.btnSubmit {background:#a0a0a0; text-align:center; font-size:13px;}
+.btnSubmit span {padding:0px 30px 0px 30px; color:#fff; border:1px solid #7f7f7f; height:50px; line-height:50px; font-size:14px;}
+.btnSubmit.purple span {background:#84308e; color:#fff; border:1px solid #84308e;}
+.btnSubmit.cancel span {background:#fff; color:#000; border:1px solid #c3c3c3;}
+.btnSubmit em.icoArrow {background:url(../img/common/arrow.png) no-repeat left center; vertical-align:top; *vertical-align:middle; margin:0 -20px 0 29px; width:6px; height:58px;}
+.btnSubmit.red {background:#e20e20;}
+.btnSubmit.red span {background:#e20e20; color:#fff; border:1px solid #e20e20;}
+.btnSubmit.purple span {background:#84308e; color:#fff; border:1px solid #84308e;}
+.btnSubmit.gray span {background:#5f6062; color:#fff; border:1px solid #5f6062;}
+
+.btnSmall {background:#666666;}
+.btnSmall span {padding:3px 17px 3px 17px; min-height:22px; line-height:20px; font-size: 14px; white-space:normal;}
+.btnSmall.line {background:#fff; border:1px solid #d0d0d0;}
+.btnSmall.line span {color:#646464; min-height:20px; line-height:18px; }
+.btnSmall.p_line {background:#fff; border:1px solid #000; line-height:18px;}
+.btnSmall.p_line span {color:#333; min-height:20px;  line-height:18px;}
+.btnSmall span.two_row {padding:11px 20px; height:36px; line-height:18px;}
+.btnSmall.black {background: #242424}
+.btnSmall.red {background: #ed2129}
+.btnSmall.blue {background: #0c91dd}
+.btnSmall.gray {background: #757a85}
+.btnSmall .bg_down {background: url(../img/common/ico_down.png) no-repeat 90% center; padding-right:40px;}
+
+.btnTinys {background:#ececec; font-size:12px;}
+.btnTinys span {padding:0px 17px ; height:25px; line-height:24px; border: 1px solid #d0d0d0; color:#646464;}
+.btnTinys.gray {background:#5f6062;}
+.btnTinys.line {background:#fff;}
+.btnTinys.p_line {background:#fff; }
+.btnTinys.p_line span {color:#8264b3; border:1px solid #8264b3;}
+
+.btnTiny {background:#fff; border-bottom:1px solid #e9e9e9; font-size:13px;}
+.btnTiny span {padding:0px 10px 0px 10px; text-align:center; border:1px solid #cccccc; color:#333; height: 24px; line-height: 24px;}
+.btnTiny span.red {color:#e20e20;}
+.btnTiny em.icoArrow {background:url(../img/common/arrow_s.png) no-repeat left center; vertical-align:top; margin:0 0 0 10px; width:4px; height:21px;}
+.btnTiny em.down {background:url(../img/common/ico_down.png) no-repeat left center; vertical-align:top; margin:0 10px 0 0px; width:10px; height:21px;}
+.btnTiny em.del {background:url(../img/common/ico_del.png) no-repeat left center; vertical-align:top; margin:0 10px 0 0px; width:10px; height:21px;}
+.btnTiny.gray {background:#777777;}
+.btnTiny.gray span {border:1px solid #777777; color:#333; color:#fff;}
+
+
+
+.btnNormal {min-width:90px; background:#666666; text-align:center; font-size:13px; }
+.btnNormal span {padding:0px 17px; height:34px; line-height:33px;}
+.btnNormal.purple {background:#84308e;}
+.btnNormal.line {background:#fff; border:1px solid #d0d0d0;}
+.btnNormal.line span {color:#242424; height:32px;}
+.btnNormal.red {background: #ed2129}
+.btnNormal.gray {background:#7d7d7d;}
+.btnNormal.black {background: #000}
+.btnNormal.blue {background: #0c91dd}
+.btnNormal span.link {background:url(../img/common/location.gif) no-repeat right center; margin-right: 10px;}
+
+
+.btnNormalB {background:#333333; text-align:center; font-size:14px; font-weight:300;}
+.btnNormalB span {padding:0px 22px; height:40px; line-height:39px;}
+.btnNormalB.line {background:#fff; border:1px solid #8062b2;}
+.btnNormalB.line span {color:#8062b2; height:34px;}
+.btnNormalB.gray {background: #757a85}
+.btnNormalB.red {background: #ed2129}
+.btnNormalB.cancel {background:#fff;  color:#000000; border:1px solid #000000; box-sizing: border-box;}
+.btnNormalB.cancel span {color:#333333; line-height:37px; height: 38px;}
+.btnNormalB.bg_print {box-sizing: border-box; padding: 0px 20px;}
+.btnNormalB.bg_print span {background: url(../img/common/ico_print.png) no-repeat left center; padding: 0px 0px 0px 25px;}
+.btnNormalB.bg_ico {box-sizing: border-box; padding: 0px 20px;}
+.btnNormalB .bg_down {background: url(../img/common/ico_down.png) no-repeat left center; padding: 0px 0px 0px 30px;}
+.btnNormalB .bg_go {background: url(../img/common/ico_go.png) no-repeat right center; padding: 0px 30px 0px 0px;}
+.btnNormalB .bg_link {background: url(../img/common/ico_link.png) no-repeat right center; padding: 0px 30px 0px 0px;}
+
+
+.btnStrong {min-width:200px; background:#093190; letter-spacing: -1px; color: #fff; text-align:center; font-size:18px; border-radius:5px; font-weight:300;}
+.btnStrong span {padding:0px 30px; height:59px; line-height:58px; font-size:20px;}
+.btnStrong.cancel {background:#fff; border:1px solid #073190; color:#073190;}
+.btnStrong.cancel span {color:#093190; height:57px; line-height:56px; }
+.btnStrong.red.cancel {border:1px solid #0c91dd; color:#0c91dd;}
+.btnStrong.red.cancel span {color:#0c91dd; height:57px; line-height:56px; }
+.btnStrong.blue.cancel {border:1px solid #0c91dd; background:#fff; color:#0c91dd;}
+.btnStrong.blue.cancel span {color:#0c91dd; height:57px; line-height:56px; }
+.btnStrong.blue {background:#004497 }
+.btnStrong.green {background:#91c034 }
+.btnStrong .bg_down {background: url(../img/common/ico_down4.png) no-repeat left center; padding: 0px 0px 0px 30px;}
+.btnStrong.gray {background:#333 }
+
+.btnEm {background:#ececec;}
+.btnEm span {padding:0px 15px 0px 15px; height:32px; line-height:29px; font-size: 14px; font-family: nGothicB;}
+.btnEm.line {border:1px solid #d0d0d0;}
+.btnEm.line span {color:#646464; height:30px;}
+
+
+
+.btnGeneral {min-width:250px; box-sizing: border-box; border-radius:6px; background:#266dda; letter-spacing: -1px; color: #fff; text-align:center; font-size:22px; font-weight:400;}
+.btnGeneral span {padding:0px 25px; height:70px; line-height:68px;}
+.btnGeneral.cancel {background:#fff; border:1px solid #093190; color:#093190;}
+.btnGeneral.cancel span {color:#093190; height:68px; line-height:66px; }
+.btnGeneral.red.cancel {border:1px solid #0c91dd; color:#0c91dd;}
+.btnGeneral.red.cancel span {color:#0c91dd; height:68px; line-height:66px; }
+.btnGeneral.gray{background:#666; border:1px solid #666; color:#333;}
+.btnGeneral.gray span {color:#fff; height:68px; line-height:66px; }
+.btnGeneral.arrow {padding:0px 40px 0px 30px;}
+.btnGeneral.arrow:after {display: block; content: ""; width:15px; height:22px; background: url(../img/common/arrow_r.png) no-repeat left top; position: absolute; right:20px; top: 50%; margin-top: -11px;}
+
+.btnBig span {vertical-align: top; font-weight:500;}
+.btnBig {min-width:240px; background:#093190; color:#fff; text-align:center; font-size:24px; line-height:95px; padding:0px 33px;}
+.btnBig.arrow:after {display: block; content: ""; width:33px; height: 8px; background: url(../img/guide/arrow3.png) no-repeat left top; position: absolute; left:80%; top: 50%; margin-top: -4px;}
+.btnBBig {min-width:400px; background:#0570be; color:#fff; text-align:center; font-size:32px; line-height:100px; padding:0px;}
+
+a.btnBBig, a.btnBig {color:#fff;}
+.btnBig .bg_down {padding-right:50px; background: url(../img/common/ico_down.png) no-repeat right center;}
+
+/* 768px 이하 */
+@media screen and (max-width:767px) {
+    
+    .btnBig {font-size:20px; line-height:62px; height: 64px; padding:0px 20px;}
+    .btnBBig {font-size:24px; min-width: auto; line-height:70px;}
+ 
+ 
+}
+
+
+/* 500px 이하 */
+@media screen and (max-width:499px) {
+    .btnNormal {font-size:13px;}
+    .btnNormal span {padding:0px 12px; height:30px; line-height:29px;}
+    .btnNormalB {font-size: 13px;}
+    .btnStrong span {height:52px !important; line-height:50px !important; font-size:17px;}
+    .btnStrong.cancel span {height:50px !important; line-height:48px !important;}
+    .btnBig {font-size:18px; line-height:62px; height: 64px; padding:0px 20px;}
+    .btnBBig {font-size:22px; min-width: auto; line-height:70px;}
+    
+    .btnGeneral {font-size:18px;}
+    .btnGeneral span {height:60px; line-height:58px;}
+    .btnGeneral.cancel span {height:58px; line-height:56px; }
+    
+ 
+}
+
+
+

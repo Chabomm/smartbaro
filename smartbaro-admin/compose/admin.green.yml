@@ -1,0 +1,20 @@
+version: '3'
+services:
+    admin:
+        image: admin
+        container_name: admin-green
+        env_file: ../.env.production
+        build:
+            context: ../
+        restart: always
+        environment:
+            - PORT=7072
+        ports:
+            - 7072:7072
+        volumes:
+            - ../../resource:/app/public/resource
+        networks:
+            - common
+networks:
+    common:
+        external: true

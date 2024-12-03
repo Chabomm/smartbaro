@@ -1,0 +1,702 @@
+{
+    "navi_list": [
+        {
+            "id": "company",
+            "name": "병원소개",
+            "to": "/company/1",
+            "children": [
+                {
+                    "id": "/company/1",
+                    "name": "병원장인사말",
+                    "to": "/company/1",
+                    "target": ""
+                },
+                {
+                    "id": "/company/2",
+                    "name": "국제바로병원역사관",
+                    "to": "/company/2",
+                    "target": ""
+                },
+                {
+                    "id": "/company/3",
+                    "name": "병원이념",
+                    "to": "/company/3",
+                    "target": ""
+                },
+                {
+                    "id": "/company/4",
+                    "name": "의료진소개",
+                    "to": "/company/4",
+                    "target": "",
+                    "children": [
+                        {
+                            "id": "/company/4/1",
+                            "name": "관절센터",
+                            "to": "/company/4/1",
+                            "target": ""
+                        },
+                        {
+                            "id": "/company/4/2",
+                            "name": "척추/고관절센터",
+                            "to": "/company/4/2",
+                            "target": ""
+                        },
+                        {
+                            "id": "/company/4/3",
+                            "name": "척추뇌신경",
+                            "to": "/company/4/3",
+                            "target": ""
+                        },
+                        {
+                            "id": "/company/4/4",
+                            "name": "소아청소년정형센터",
+                            "to": "/company/4/4",
+                            "target": ""
+                        },
+                        {
+                            "id": "/company/4/5",
+                            "name": "골절/손저림센터",
+                            "to": "/company/4/5",
+                            "target": ""
+                        },
+                        {
+                            "id": "/company/4/6",
+                            "name": "어깨관절센터",
+                            "to": "/company/4/6",
+                            "target": ""
+                        },
+                        {
+                            "id": "/company/4/7",
+                            "name": "족부/족관절센터",
+                            "to": "/company/4/7",
+                            "target": ""
+                        },
+                        {
+                            "id": "/company/4/8",
+                            "name": "비수술통증센터",
+                            "to": "/company/4/8",
+                            "target": ""
+                        },
+                        {
+                            "id": "/company/4/9",
+                            "name": "내과/검진센터",
+                            "to": "/company/4/9",
+                            "target": ""
+                        },
+                        {
+                            "id": "/company/4/37",
+                            "name": "갑상선외과센터",
+                            "to": "/company/4/37",
+                            "target": ""
+                        },
+                        {
+                            "id": "/company/4/11",
+                            "name": "영상의학과",
+                            "to": "/company/4/11",
+                            "target": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "/company/5",
+                    "name": "병원둘러보기",
+                    "to": "/company/5",
+                    "target": ""
+                },
+                {
+                    "id": "/company/6",
+                    "name": "의료사회사업",
+                    "to": "/company/6",
+                    "target": ""
+                },
+                {
+                    "id": "/company/7",
+                    "name": "찾아오시는 길",
+                    "to": "/company/7",
+                    "target": ""
+                }
+            ]
+        },
+        {
+            "id": "medical",
+            "name": "진료안내",
+            "to": "/medical/1",
+            "children": [
+                {
+                    "id": "/medical/1",
+                    "name": "진료예약안내",
+                    "to": "/medical/1",
+                    "target": ""
+                },
+                {
+                    "id": "/medical/2",
+                    "name": "진료예약",
+                    "to": "/medical/2",
+                    "target": ""
+                },
+                {
+                    "id": "/medical/5",
+                    "name": "비급여항목",
+                    "to": "/medical/5",
+                    "target": ""
+                },
+                {
+                    "id": "/medical/3",
+                    "name": "제증명서류발급",
+                    "to": "/medical/3",
+                    "target": ""
+                },
+                {
+                    "id": "/medical/4",
+                    "name": "전문의 상담",
+                    "to": "/medical/4",
+                    "target": ""
+                }
+            ]
+        },
+        {
+            "id": "knee",
+            "name": "무릎관절",
+            "to": "/knee/1",
+            "children": [
+                {
+                    "id": "/knee/1",
+                    "name": "퇴행성관절염",
+                    "to": "/knee/1",
+                    "target": ""
+                },
+                {
+                    "id": "/knee/3",
+                    "name": "반월상연골판손상",
+                    "to": "/knee/3",
+                    "target": ""
+                },
+                {
+                    "id": "/knee/4",
+                    "name": "연골연화증",
+                    "to": "/knee/4",
+                    "target": ""
+                },
+                {
+                    "id": "/knee/5",
+                    "name": "인대손상",
+                    "to": "/knee/5",
+                    "target": ""
+                },
+                {
+                    "id": "/knee/6",
+                    "name": "십자인대파열",
+                    "to": "/knee/6",
+                    "target": ""
+                },
+                {
+                    "id": "/knee/7",
+                    "name": "하지정맥류",
+                    "to": "/knee/7",
+                    "target": ""
+                },
+                {
+                    "id": "/knee/8",
+                    "name": "치료센터",
+                    "to": "/knee/8",
+                    "target": "",
+                    "children": [
+                        {
+                            "id": "/knee/8/1",
+                            "name": "로봇인공관절수술",
+                            "to": "/knee/8/1",
+                            "target": ""
+                        },
+                        {
+                            "id": "/knee/8/3",
+                            "name": "전후방십자인대재건술",
+                            "to": "/knee/8/3",
+                            "target": ""
+                        },
+                        {
+                            "id": "/knee/8/4",
+                            "name": "연골판줄기세포치료술",
+                            "to": "/knee/8/4",
+                            "target": ""
+                        },
+                        {
+                            "id": "/knee/8/5",
+                            "name": "1day관절내시경수술",
+                            "to": "/knee/8/5",
+                            "target": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "shoulder",
+            "name": "어깨관절",
+            "to": "/shoulder/1",
+            "is_hidden": false,
+            "children": [
+                {
+                    "id": "/shoulder/1",
+                    "name": "오십견",
+                    "to": "/shoulder/1",
+                    "target": ""
+                },
+                {
+                    "id": "/shoulder/2",
+                    "name": "회전근개파열",
+                    "to": "/shoulder/2",
+                    "target": ""
+                },
+                {
+                    "id": "/shoulder/3",
+                    "name": "퇴행성관절염",
+                    "to": "/shoulder/3",
+                    "target": ""
+                },
+                {
+                    "id": "/shoulder/4",
+                    "name": "어깨충돌증후군",
+                    "to": "/shoulder/4",
+                    "target": ""
+                },
+                {
+                    "id": "/shoulder/5",
+                    "name": "석회화건염",
+                    "to": "/shoulder/5",
+                    "target": ""
+                },
+                {
+                    "id": "/shoulder/6",
+                    "name": "습관성탈구",
+                    "to": "/shoulder/6",
+                    "target": ""
+                },
+                {
+                    "id": "/shoulder/7",
+                    "name": "관절와순파열",
+                    "to": "/shoulder/7",
+                    "target": ""
+                },
+                {
+                    "id": "/shoulder/8",
+                    "name": "치료센터",
+                    "to": "/shoulder/8",
+                    "target": "",
+                    "children": [
+                        {
+                            "id": "/shoulder/8/1",
+                            "name": "역행성 인공관절수술",
+                            "to": "/shoulder/8/1",
+                            "target": ""
+                        },
+                        {
+                            "id": "/shoulder/8/2",
+                            "name": "회전근개 이열봉합수술",
+                            "to": "/shoulder/8/2",
+                            "target": ""
+                        },
+                        {
+                            "id": "/shoulder/8/3",
+                            "name": "견봉석회화성형술",
+                            "to": "/shoulder/8/3",
+                            "target": ""
+                        },
+                        {
+                            "id": "/shoulder/8/4",
+                            "name": "1day 어깨관절내시경수술",
+                            "to": "/shoulder/8/4",
+                            "target": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "handfoot",
+            "name": "수부/족부",
+            "to": "/handfoot/1",
+            "is_hidden": false,
+            "children": [
+                {
+                    "id": "/handfoot/1",
+                    "name": "손저림",
+                    "to": "/handfoot/1",
+                    "target": ""
+                },
+                {
+                    "id": "/handfoot/2",
+                    "name": "수근관증후군",
+                    "to": "/handfoot/2",
+                    "target": ""
+                },
+                {
+                    "id": "/handfoot/3",
+                    "name": "테니스엘보우",
+                    "to": "/handfoot/3",
+                    "target": ""
+                },
+                {
+                    "id": "/handfoot/5",
+                    "name": "방아쇠수지",
+                    "to": "/handfoot/5",
+                    "target": ""
+                },
+                {
+                    "id": "/handfoot/7",
+                    "name": "무지외반증",
+                    "to": "/handfoot/7",
+                    "target": ""
+                },
+                {
+                    "id": "/handfoot/8",
+                    "name": "족저근막염",
+                    "to": "/handfoot/8",
+                    "target": ""
+                },
+                {
+                    "id": "/handfoot/9",
+                    "name": "발목인대파열",
+                    "to": "/handfoot/9",
+                    "target": ""
+                },
+                {
+                    "id": "/handfoot/10",
+                    "name": "내성발톱",
+                    "to": "/handfoot/10",
+                    "target": ""
+                },
+                {
+                    "id": "/handfoot/11",
+                    "name": "치료센터",
+                    "to": "/handfoot/11",
+                    "target": "",
+                    "children": [
+                        {
+                            "id": "/handfoot/11/2",
+                            "name": "수근관터널증후군수술",
+                            "to": "/handfoot/11/2",
+                            "target": ""
+                        },
+                        {
+                            "id": "/handfoot/11/3",
+                            "name": "아킬레스파열 재건수술",
+                            "to": "/handfoot/11/3",
+                            "target": ""
+                        },
+                        {
+                            "id": "/handfoot/11/4",
+                            "name": "전거비인대파열 수술",
+                            "to": "/handfoot/11/4",
+                            "target": ""
+                        },
+                        {
+                            "id": "/handfoot/11/5",
+                            "name": "무지외반증 수술",
+                            "to": "/handfoot/11/5",
+                            "target": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hipjoint",
+            "name": "척추/고관절",
+            "to": "/hipjoint/1",
+            "is_hidden": false,
+            "children": [
+                {
+                    "id": "/hipjoint/1",
+                    "name": "척추관협착증",
+                    "to": "/hipjoint/1",
+                    "target": ""
+                },
+                {
+                    "id": "/hipjoint/2",
+                    "name": "디스크탈출증",
+                    "to": "/hipjoint/2",
+                    "target": ""
+                },
+                {
+                    "id": "/hipjoint/3",
+                    "name": "척추전방전위증",
+                    "to": "/hipjoint/3",
+                    "target": ""
+                },
+                {
+                    "id": "/hipjoint/4",
+                    "name": "척추압박골절",
+                    "to": "/hipjoint/4",
+                    "target": ""
+                },
+                {
+                    "id": "/hipjoint/6",
+                    "name": "척추측만증",
+                    "to": "/hipjoint/6",
+                    "target": ""
+                },
+                {
+                    "id": "/hipjoint/7",
+                    "name": "거북목/일자목",
+                    "to": "/hipjoint/7",
+                    "target": ""
+                },
+                {
+                    "id": "/hipjoint/8",
+                    "name": "근막통증증후군",
+                    "to": "/hipjoint/8",
+                    "target": ""
+                },
+                {
+                    "id": "/hipjoint/9",
+                    "name": "대퇴골두무혈성괴사",
+                    "to": "/hipjoint/9",
+                    "target": ""
+                },
+                {
+                    "id": "/hipjoint/11",
+                    "name": "치료센터",
+                    "to": "/hipjoint/11",
+                    "target": "",
+                    "children": [
+                        {
+                            "id": "/hipjoint/11/1",
+                            "name": "양방향척추내시경",
+                            "to": "/hipjoint/11/1",
+                            "target": ""
+                        },
+                        {
+                            "id": "/hipjoint/11/2",
+                            "name": "4無신경성형술",
+                            "to": "/hipjoint/11/2",
+                            "target": ""
+                        },
+                        {
+                            "id": "/hipjoint/11/3",
+                            "name": "신경차단술",
+                            "to": "/hipjoint/11/3",
+                            "target": ""
+                        },
+                        {
+                            "id": "/hipjoint/11/4",
+                            "name": "고주파수액감압술",
+                            "to": "/hipjoint/11/4",
+                            "target": ""
+                        },
+                        {
+                            "id": "/hipjoint/11/5",
+                            "name": "고관절인공관절 수술",
+                            "to": "/hipjoint/11/5",
+                            "target": ""
+                        },
+                        {
+                            "id": "/hipjoint/11/6",
+                            "name": "최소침습 척추고정술",
+                            "to": "/hipjoint/11/6",
+                            "target": ""
+                        },
+                        {
+                            "id": "/hipjoint/11/7",
+                            "name": "척추측만증 변형수술",
+                            "to": "/hipjoint/11/7",
+                            "target": ""
+                        },
+                        {
+                            "id": "/hipjoint/11/8",
+                            "name": "인공디스크 치환술",
+                            "to": "/hipjoint/11/8",
+                            "target": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cranial",
+            "name": "척추뇌신경",
+            "to": "/cranial/1",
+            "is_hidden": false,
+            "children": [
+                {
+                    "id": "/cranial/1",
+                    "name": "두통",
+                    "to": "/cranial/1",
+                    "target": ""
+                },
+                {
+                    "id": "/cranial/2",
+                    "name": "치매",
+                    "to": "/cranial/2",
+                    "target": ""
+                },
+                {
+                    "id": "/cranial/3",
+                    "name": "뇌졸중",
+                    "to": "/cranial/3",
+                    "target": ""
+                },
+                {
+                    "id": "/cranial/4",
+                    "name": "어지럼증",
+                    "to": "/cranial/4",
+                    "target": ""
+                },
+                {
+                    "id": "/cranial/5",
+                    "name": "손발저림",
+                    "to": "/cranial/5",
+                    "target": ""
+                }
+            ]
+        },
+
+        {
+            "id": "screening",
+            "name": "내과/검진센터",
+            "to": "/screening/1",
+            "is_hidden": false,
+            "children": [
+                {
+                    "id": "/screening/1",
+                    "name": "내과센터",
+                    "to": "/screening/1",
+                    "target": "",
+                    "children": [
+                        {
+                            "id": "/screening/1/1",
+                            "name": "위대장질환",
+                            "to": "/screening/1/1",
+                            "target": ""
+                        },
+                        {
+                            "id": "/screening/1/2",
+                            "name": "심혈관질환",
+                            "to": "/screening/1/2",
+                            "target": ""
+                        },
+                        {
+                            "id": "/screening/1/3",
+                            "name": "내분비질환",
+                            "to": "/screening/1/3",
+                            "target": ""
+                        },
+                        {
+                            "id": "/screening/1/4",
+                            "name": "초음파검사",
+                            "to": "/screening/1/4",
+                            "target": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "/screening/2",
+                    "name": "갑상선외과센터",
+                    "to": "/screening/2",
+                    "target": ""
+                },
+                {
+                    "id": "/screening/3",
+                    "name": "종합검진센터",
+                    "to": "/screening/3",
+                    "target": "",
+                    "children": [
+                        {
+                            "id": "/screening/3/1",
+                            "name": "건강검진안내",
+                            "to": "/screening/3/1",
+                            "target": ""
+                        },
+                        {
+                            "id": "/screening/3/2",
+                            "name": "종합검진프로그램",
+                            "to": "/screening/3/2",
+                            "target": ""
+                        },
+                        {
+                            "id": "/screening/3/3",
+                            "name": "보험공단건강검진",
+                            "to": "/screening/3/3",
+                            "target": ""
+                        },
+                        {
+                            "id": "/screening/3/4",
+                            "name": "채용 및 기타검진",
+                            "to": "/screening/3/4",
+                            "target": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bbs",
+            "name": "열린마당",
+            "to": "/bbs/news",
+            "is_hidden": false,
+            "children": [
+                {
+                    "id": "/bbs/news",
+                    "name": "병원소식",
+                    "to": "/bbs/news",
+                    "target": ""
+                },
+                {
+                    "id": "/bbs/media",
+                    "name": "언론정보",
+                    "to": "/bbs/media",
+                    "target": ""
+                },
+                {
+                    "id": "/bbs/qooktv",
+                    "name": "쿡TV(유튜브영상)",
+                    "to": "/bbs/qooktv",
+                    "target": ""
+                },
+                {
+                    "id": "/bbs/global",
+                    "name": "해외의료교류",
+                    "to": "/bbs/global",
+                    "target": ""
+                },
+                {
+                    "id": "/bbs/star",
+                    "name": "스타들의 방문",
+                    "to": "/bbs/star",
+                    "target": ""
+                },
+                {
+                    "id": "/bbs/voc",
+                    "name": "고객의소리",
+                    "to": "/bbs/voc",
+                    "target": ""
+                }
+            ]
+        },
+        {
+            "id": "terms",
+            "name": "멤버쉽",
+            "to": "/terms/privacy",
+            "is_hidden": true,
+            "children": [
+                {
+                    "id": "/terms/privacy",
+                    "name": "개인정보 취급방침",
+                    "to": "/terms/privacy",
+                    "target": ""
+                },
+                {
+                    "id": "/terms/provision",
+                    "name": "환자권리장전",
+                    "to": "/terms/provision",
+                    "target": ""
+                },
+                {
+                    "id": "/terms/email",
+                    "name": "이메일 무단수집거부",
+                    "to": "/terms/email",
+                    "target": ""
+                }
+            ]
+        }
+    ]
+}

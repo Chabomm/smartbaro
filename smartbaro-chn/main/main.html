@@ -1,0 +1,229 @@
+<!--# include file="/_include/top.html" -->
+
+<script type="text/javascript" src="../js/jquery.bxslider.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/jquery.bxslider.css" />
+
+<script>
+    var visual = "";
+    var partners = "";
+
+    $(document).ready(function() {
+
+
+        visual = $('.bxslider').bxSlider({
+            auto: true,
+            autoControls: false,
+            mode: 'fade',
+            controls: true,
+            pager: true,
+            autoHover: true,
+            pause: 3000,
+            nextSelector: '#board_r1',
+            prevSelector: '#board_l1',
+            nextText: '<img src="../img/main/slide_r.png">',
+            prevText: '<img src="../img/main/slide_l.png">',
+
+            onSliderLoad: function(currentIndex) {
+
+
+                $("#visual" + currentIndex).addClass('active');
+
+            },
+            onSlideAfter: function($slideElement, oldIndex, currentIndex) {
+
+                var slide_count = visual.getSlideCount();
+                var slide_curr = visual.getCurrentSlide();
+                $(".visual").removeClass('active');
+                $("#visual" + slide_curr).addClass('active');
+
+
+            },
+
+        });
+
+
+
+        partners = $('.partners_slide').bxSlider({
+            auto: true,
+            autoControls: false,
+            pager: false,
+            minSlides: 3,
+            maxSlides: 8,
+            infiniteLoop: true,
+            slideWidth: '160px',
+            moveSlides: 1,
+            nextSelector: '#p2_next',
+            prevSelector: '#p2_prev',
+            nextText: '<img src="../img/main/m_banner_next.png">',
+            prevText: '<img src="../img/main/m_banner_prev.png">',
+            autoHover: false,
+            slideMargin: 0,
+        });
+
+
+
+        $(window).resize(function() {
+            visual.reloadSlider();
+            partners.reloadSlider();
+
+
+        });
+
+
+
+
+    });
+
+   
+
+</script>
+
+<div id="wrap" class="main_wrap">
+    <!-- header -->
+    <!--# include file="/_include/header.html" -->
+    <!-- //header -->
+
+    <!-- container -->
+    <div id="container" class="main_content">
+        <div id="section0" class="section">
+            <div class="main_visual">
+                <ul class="bxslider">
+				    <li class="visual" id="visual2" style="background:url('../img/main/visual/01.jpg?20240219') center center no-repeat;">
+                        <div class="v_frame">
+                            <!-- <p class="visual_txt"><img src="../img/main/visual_txt2.png" alt=""></p> -->
+                            <img src="../img/main/visual_frame.png" alt="">
+                        </div>
+                    </li>
+                    <li class="visual" id="visual1" style="background:url('../img/main/visual/02.jpg') center center no-repeat;">
+                        <div class="v_frame">
+                            <!-- <p class="visual_txt" style="top: 20%"><img src="../img/main/visual_txt1.png" alt=""></p> -->
+                            <img src="../img/main/visual_frame.png" alt="">
+                        </div>
+                    </li>
+                    <li class="visual" id="visual0" style="background:url('../img/main/visual/04.jpg') center center no-repeat;">
+                        <div class="v_frame">
+                            <p class="visual_txt"></p>
+                            <img src="../img/main/visual_frame.png" alt="">
+                        </div>
+                    </li>
+                    <li class="visual" id="visual3" style="background:url('../img/main/visual02.jpg') center center no-repeat;">
+                        <div class="v_frame">
+                            <p class="visual_txt"><img src="../img/main/visual_txt1.png" alt=""></p>
+                            <img src="../img/main/visual_frame.png" alt="">
+                        </div>
+                    </li>
+                    <li class="visual" id="visual5" style="background:url('../img/main/visual04.jpg') center center no-repeat;">
+                        <div class="v_frame">
+                            <p class="visual_txt"><img src="../img/main/visual_txt4.png" alt=""></p>
+                            <img src="../img/main/visual_frame.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+                <p class="v_bt" id="board_l1"></p>
+                <p class="v_bt" id="board_r1"></p>
+            </div>
+        </div>
+        <div id="section1" class="section">
+            <div class="inner">
+                <ul class="main_banner">
+                    <li>
+                        <div class="box">
+                            <h3>Joint Endoscopy Center</h3>
+                            <p class="txt">关节内窥镜手术只需切开1~2cm的小口，就能够利用关节内窥镜同时观察和治疗关节内部。由于使用美国Stryker公司的full HD级Arthroscopy设施，所以能够通过更清晰的画面，可以观察到细微的损伤部位。</p><a href="../join/01.html" class="bt">MORE VIEW</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <h3>Non-Surgical Spine Center</h3>
+                            <p class="txt">通过非手术治疗法来减轻80~90%的脊椎患者的疼痛，缓解症状，并利用3D Trac设备采用立体矫正治疗法，可以形成椎间盘负压，同时进行度数治疗，同时还能够治疗腰部/颈部的椎间盘、脊椎管狭窄与脊椎侧凸症等疾病。</p>
+                            <a href="../non/02.html" class="bt">MORE VIEW</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <h3>Spine- Specialty Center</h3>
+                            <p class="txt">德国carlzeiss公司的微手术显微镜设备把脊椎和髋关节统合为一体，根据患者的状态提供最加的治疗，而且还可以做超精密细微脊椎手术。利用这一设备做最小切开脊椎固定术和人工椎间盘手术，大大减轻患者的负担。</p>
+                            <a href="../spine/01.html" class="bt">MORE VIEW</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="section2" class="section">
+            <div class="inner">
+                <ul class="main_quick">
+                    <li><a href="#"><span class="ico"><img src="../img/main/quick1.png" alt=""></span>Medical institutions <br>
+                            attracting<br>
+                            foreign patients</a></li>
+                    <li><a href="#"><span class="ico"><img src="../img/main/quick2.png" alt=""></span>International <br>
+                            SpinalSurgery Education <br>
+                            Designated Hospital
+                        </a></li>
+                    <li><a href="#"><span class="ico"><img src="../img/main/quick3.png" alt=""></span>International <br>
+                            Artificial Joint <br>
+                            Training Designated Hospital</a></li>
+                </ul>
+
+
+
+            </div>
+        </div>
+        <div id="section3" class="section">
+            <div class="inner">
+                <div class="main_map_wrap">
+                    <div class="map_wrap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.8022595592374!2d126.69115601553426!3d37.46539047981696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b795832034587%3A0x2c957677980b6b47!2z7J247LKc6rSR7Jet7IucIOuCqOuPmeq1rCDqsITshJ3rj5kg7ISd7KCV66GcIDUxOA!5e0!3m2!1sko!2skr!4v1627795114459!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                    <div class="main_map_info">
+                        <h3>Directions</h3>
+                        <p class="txt1">518, Seokjeong-ro, Namdong-gu, <br>
+                            Incheon, Republic of Korea</p>
+
+                        <p class="txt2">Weekdays 09:00 to 18:00<br>
+                            Lunch time 13:00 to 14:00<br>
+                            Night care from 18:00 to 20:00<br>
+                            Saturday 09:00 to 13:00</p>
+
+                        <p class="txt2">365 Weekend Outpatient Clinic <br>
+                            (Saturday afternoon/Sunday/Public holiday)</p>
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+        <div id="section4" class="section">
+            <div class="partners_wrap">
+                <ul class="partners_slide">
+                    <li><span class="box"><img src="../img/main/s_ban01.gif" alt=""></span></li>
+                    <li><span class="box"><img src="../img/main/s_ban02.gif" alt=""></span></li>
+                    <li><span class="box"><img src="../img/main/s_ban03.gif" alt=""></span></li>
+                    <li><span class="box"><img src="../img/main/s_ban04.gif" alt=""></span></li>
+                    <li><span class="box"><img src="../img/main/s_ban05.gif" alt=""></span></li>
+                    <li><span class="box"><img src="../img/main/s_ban06.gif" alt=""></span></li>
+                    <li><span class="box"><img src="../img/main/s_ban07.gif" alt=""></span></li>
+                    <li><span class="box"><img src="../img/main/s_ban08.gif" alt=""></span></li>
+
+                </ul>
+                <p class="v_bt" id="p2_prev"></p>
+                <p class="v_bt" id="p2_next"></p>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+    <!-- footer-->
+    <!--# include file="/_include/footer.html" -->
+    <!-- //footer-->
+
+
+</div>
+
+</body>
+
+</html>

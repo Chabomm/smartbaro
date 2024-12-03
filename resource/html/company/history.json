@@ -1,0 +1,211 @@
+[
+    {
+        "year": "2023",
+        "images": [
+            { "src": "https://resr.smartbaro.com/images/company/history/2023-1.jpg", "class": "col-span-1 w-full" },
+            { "src": "https://resr.smartbaro.com/images/company/history/2023-2.jpg", "class": "col-span-1 w-full" }
+        ],
+        "texts": [
+            { "text": "보건복지부 5기 관절전문병원 지정 (4기 연속지정)", "class": "font-bold text-point text-lg" },
+            { "text": "건강보험심사평가원 수혈량 1등급지정", "class": "font-bold text-point text-lg" },
+            { "text": "인천관광공사 선정 '인천나눔의료' 이정준병원장선정", "class": "" },
+            { "text": "SSG랜더스 지구를 지켜라 환경캠페인", "class": "" },
+            { "text": "경추협진 갑상선 외과센터 개설", "class": "" },
+            { "text": "인천소프트볼야구협회 '국제바로병원장배야구대회'개최", "class": "" },
+            { "text": "인천고교야구데이 문학랜더스필드 이정준병원장 시구", "class": "" },
+            { "text": "SSG랜더스 최정 선수 ‘사랑의 홈런 캠페인’", "class": "" },
+            { "text": "재인충남장학재단 장학금 기부", "class": "" }
+        ]
+    },
+    {
+        "year": "2022",
+        "images": [
+            { "src": "https://resr.smartbaro.com/images/company/history/2022-1.jpg", "class": "col-span-1 w-full" },
+            { "src": "https://resr.smartbaro.com/images/company/history/2022-2.jpg", "class": "col-span-1 w-full" }
+        ],
+        "texts": [
+            { "text": "3세대 로봇인공관절 수술기 장비도입", "class": "font-bold text-point text-lg" },
+            { "text": "2009 외래누적 연인원 200만명(건) 돌파", "class": "font-bold text-point text-lg" },
+            { "text": "인천FC 프로축구단과 ‘한골의 행복’ 캠페인", "class": "" },
+            { "text": "SSG랜더스 퓨처스 선수단 공식협력병원", "class": "" },
+            { "text": "미추홀구노인복지관 마스크 20,000장 기증", "class": "" },
+            { "text": "명문 인고야구부 후원회 200만원 장학금 기부", "class": "" },
+            { "text": "제1회 국제바로병원배 전국파라아이스하키 대회 개최", "class": "" },
+            { "text": "경인히트상품 기업체부문 은상(양방향척추내시경수술)", "class": "" },
+            { "text": "SSG랜더스 최정 선수 ‘사랑의 홈런 캠페인’", "class": "" },
+            { "text": "재인충남장학재단 장학금 기부", "class": "" }
+        ]
+    },
+    {
+        "year": "2021",
+        "images": [
+            { "src": "https://resr.smartbaro.com/images/company/history/2021-1.jpg", "class": "col-span-1 w-full" },
+            { "src": "https://resr.smartbaro.com/images/company/history/2021-2.jpg?20240312", "class": "col-span-1 w-full" }
+        ],
+        "texts": [
+            { "text": "남동구 간석동 확장이전", "class": "font-bold text-point text-lg" },
+            { "text": "메디컬아시아 제12회 글로벌의료서비스 척추내시경부분 대상", "class": "" },
+            { "text": "SSG로맥 ‘한골의 행복’ 척추측만증 어린이 후원캠페인", "class": "" },
+            { "text": "인천광역시체육회 건강증진 협약", "class": "" },
+            { "text": "인천광역시자살예방센터 안전망 구축", "class": "" },
+            { "text": "KB손해보험 스타즈배구단 공식지정병원 협약", "class": "" },
+            { "text": "SSG랜더스 최정 선수 ‘사랑의 홈런 캠페인’", "class": "" },
+            { "text": "재인충남장학재단 장학금 기부", "class": "" }
+        ]
+    },
+    {
+        "year": "2020",
+        "images": [
+            { "src": "https://resr.smartbaro.com/images/company/history/2020-1.jpg", "class": "col-span-2 w-full" },
+            { "src": "https://resr.smartbaro.com/images/company/history/2020-2.jpg", "class": "col-span-1 w-full" },
+            { "src": "https://resr.smartbaro.com/images/company/history/2020-3.png", "class": "col-span-1 w-full" }
+        ],
+        "texts": [
+            { "text": "바로병원 새이름 ‘국제바로병원’으로 병원명 변경", "class": "font-bold text-point text-lg" },
+            { "text": "보건복지부 인증 의료기관 3주기 획득", "class": "font-bold text-point text-lg" },
+            { "text": "보건복지부 4기 관절전문병원 지정", "class": "font-bold text-point text-lg" },
+            { "text": "SMART2030 미션비전 선포식", "class": "" },
+            { "text": "SK와이번스 최정 선수 ‘사랑의 홈런 캠페인’", "class": "" },
+            { "text": "재인충남장학재단 장학금 기부", "class": "" }
+        ]
+    },
+    {
+        "year": "2019",
+        "images": [{ "src": "https://resr.smartbaro.com/images/company/history/2019-1.png", "class": "col-span-1 w-full" }],
+        "texts": [
+            { "text": "외래(신환) 환자 20만명 돌파", "class": "font-bold text-point text-lg" },
+            { "text": "캄보디아 방문, 해외의료봉사 실시", "class": "" },
+            { "text": "제1회 바로병원장배 볼링대회 성료", "class": "" },
+            { "text": "프로야구선수와 함께하는 2019유소년 아구클리닉 ‘빛을 나누는 날’", "class": "" },
+            { "text": "SK와이번스 최정 선수 ‘사랑의 홈런 캠페인’", "class": "" },
+            { "text": "재인충남장학재단 장학금 기부", "class": "" }
+        ]
+    },
+    {
+        "year": "2018",
+        "images": [
+            { "src": "https://resr.smartbaro.com/images/company/history/2018-1.jpg", "class": "col-span-1 w-full" },
+            { "src": "https://resr.smartbaro.com/images/company/history/2018-2.png", "class": "col-span-1 w-full" }
+        ],
+        "texts": [
+            { "text": "보건복지부 3기 관절전문병원 지정", "class": "font-bold text-point text-lg" },
+            { "text": "두통/뇌신경센터 오픈", "class": "font-bold text-point text-lg" },
+            { "text": "SK와이번스/대명킬러웨일즈와 함께하는 힐링캠프바자회", "class": "" },
+            { "text": "인천광역시장애인체육회 제1기 서포터즈단 발대식", "class": "" },
+            { "text": "SK와이번스 최정 선수 ‘사랑의 홈런 캠페인’", "class": "" },
+            { "text": "재인충남장학재단 장학금 기부", "class": "" }
+        ]
+    },
+    {
+        "year": "2017",
+        "images": [
+            { "src": "https://resr.smartbaro.com/images/company/history/2017-1.png", "class": "col-span-1 w-full" },
+            { "src": "https://resr.smartbaro.com/images/company/history/2017-2.jpg", "class": "col-span-1 w-full" }
+        ],
+        "texts": [
+            { "text": "보건복지부 인증 의료기관 2주기 획득", "class": "font-bold text-point text-lg" },
+            { "text": "제14회 전국장애인동계체전 아이스슬레지하키 ‘바로병원’팀 참가", "class": "" },
+            { "text": "메디컬아시아 제8회 글로벌의료서비스 척추관절종합부분 대상", "class": "" },
+            { "text": "프로야구선수와 함께하는 2019유소년 아구클리닉 ‘빛을 나누는 날", "class": "" },
+            { "text": "SSG랜더스 최정 선수 ‘사랑의 홈런 캠페인’", "class": "" },
+            { "text": "재인충남장학재단 장학금 기부", "class": "" }
+        ]
+    },
+    {
+        "year": "2016",
+        "images": [
+            { "src": "https://resr.smartbaro.com/images/company/history/2016-1.png", "class": "col-span-1 w-full" },
+            { "src": "https://resr.smartbaro.com/images/company/history/2016-2.png", "class": "col-span-1 w-full" }
+        ],
+        "texts": [
+            { "text": "어깨관절내시경수술 4천례 돌파", "class": "font-bold text-point text-lg" },
+            { "text": "제13회 전국장애인동계체전 아이스슬레지하키 ‘바로병원’팀 참가", "class": "" },
+            { "text": "인천광역시 남구청장상 수상 ‘노인복지사업발전 공로’", "class": "" },
+            { "text": "한-중 길림성 자매결연 및 인천씨름협회 MOU체결", "class": "" },
+            { "text": "2016효나눔바자회 및 따뜻한 밥상 나누기 개최", "class": "" },
+            { "text": "대명킬러웨일즈 아이스하키단 공식지정병원 체결", "class": "" },
+            { "text": "남부경찰서, 남구다문화가족지원센터와 협력병원 체결", "class": "" },
+            { "text": "SK와이번스 최정 선수 ‘사랑의 홈런 캠페인’", "class": "" },
+            { "text": "재인충남장학재단 장학금 기부", "class": "" }
+        ]
+    },
+    {
+        "year": "2015",
+        "images": [{ "src": "https://resr.smartbaro.com/images/company/history/2015-1.jpg", "class": "col-span-1 w-full" }],
+        "texts": [
+            { "text": "보건복지부 2기 관절전문병원 지정", "class": "font-bold text-point text-lg" },
+            { "text": "제23차 대한견주관절학회 춘계학술대회 연구성과 발표", "class": "" },
+            { "text": "SK와이번스 최정 선수 ‘사랑의 홈런 캠페인’", "class": "" },
+            { "text": "재인충남장학재단 장학금 기부 ", "class": "" }
+        ]
+    },
+    {
+        "year": "2014",
+        "images": [{ "src": "https://resr.smartbaro.com/images/company/history/2014-1.png", "class": "col-span-1 w-full ms-[100%]" }],
+
+        "texts": [
+            { "text": "제17회 인천아시안게임 공식지정병원", "class": "font-bold text-point text-lg" },
+            { "text": "제2회 인천아시안패러게임 공식지정병원", "class": "font-bold text-point text-lg" },
+            { "text": "OSF Medical Center Dr. Scott Trenhaile 어깨수술 공동집도", "class": "" },
+            { "text": "제8회 대한민국보건산업대상 우수병원 수상", "class": "" },
+            { "text": "SK와이번스 최정 선수 ‘사랑의 홈런 캠페인’", "class": "" },
+            { "text": "재인충남장학재단 장학금 기부", "class": "" }
+        ]
+    },
+    {
+        "year": "2013",
+        "images": [{ "src": "https://resr.smartbaro.com/images/company/history/2013-1.jpg", "class": "col-span-1 w-full" }],
+        "texts": [
+            { "text": "SK와이번스 프로야구단 공식지정병원 체결", "class": "font-bold text-point text-lg" },
+            { "text": "SK와이번스-남구청-바로병원이 함께하는 인천남구민의날 개최", "class": "" },
+            { "text": "2013전국장애인아이스하키 선수권대회 ‘바로병원’팀 참가", "class": "" },
+            { "text": "SK와이번스 최정 선수 ‘사랑의 홈런 캠페인’", "class": "" },
+            { "text": "재인충남장학재단 장학금 기부", "class": "" }
+        ]
+    },
+    {
+        "year": "2012",
+        "images": [
+            { "src": "https://resr.smartbaro.com/images/company/history/2012-1.jpg", "class": "col-span-1 w-full ms-[100%]" },
+            { "src": "https://resr.smartbaro.com/images/company/history/2012-2.jpg", "class": "col-span-2 w-[50%] ms-[50%]" }
+        ],
+        "texts": [
+            { "text": "보건복지부 인증 의료기관 1주기 획득", "class": "font-bold text-point text-lg" },
+            { "text": "카자흐스탄 라핫의료센터, 알마티 국영의료센터 협약", "class": "font-bold text-point text-lg" },
+            { "text": "한국프로야구선수협회 제1호 지정병원 협약", "class": "" },
+            { "text": "사단법인 대한노인회 협력병원 협약", "class": "" },
+            { "text": "SK와이번스 이호준 선수 ‘사랑의 홈런 캠페인’", "class": "" }
+        ]
+    },
+    {
+        "year": "2011",
+        "images": [{ "src": "https://resr.smartbaro.com/images/company/history/2011-1.png", "class": "col-span-1 w-full" }],
+        "texts": [
+            { "text": "척추비수술치료 ‘신경차단술’ 1만례 달성", "class": "font-bold text-point text-lg" },
+            { "text": "건강보험심사평가원 고관절인공관절수술분야 1등급 지정", "class": "font-bold text-point text-lg" },
+            { "text": "인천광역시 시장상 – 보건사업 및 시민보건향상 기여 공로", "class": "" },
+            { "text": "인천광역시 체육회 공로상 – 체육회 발전을 위한 의료지원 공로", "class": "" },
+            { "text": "2011대한민국고객감동브랜드대상 관절/척추 부분 수상", "class": "" }
+        ]
+    },
+    {
+        "year": "2010",
+        "images": [],
+        "texts": [
+            { "text": "보건복지부 인증 외국인환자 유치기관 등록", "class": "font-bold text-point text-lg" },
+            { "text": "대한배구협회 의무분과위원회 위원 위촉", "class": "" },
+            { "text": "스탠포드대학병원 Dr. Christopher Scott Mow 인공관절수술 공동집도", "class": "" },
+            { "text": "개원1주기 비전/미션 선포식", "class": "" }
+        ]
+    },
+    {
+        "year": "2009",
+        "images": [{ "src": "https://resr.smartbaro.com/images/company/history/2009-1.jpg", "class": "col-span-1 w-full" }],
+        "texts": [
+            { "text": "개원 및 진료개시", "class": "font-bold text-point text-lg" },
+            { "text": "아시아태평양 인공관절 교육병원 지정", "class": "" },
+            { "text": "국제인공관절수술 교육병원 지정", "class": "" },
+            { "text": "국제척추수술 교육병원 지정", "class": "" }
+        ]
+    }
+]
